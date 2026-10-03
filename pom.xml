@@ -19,8 +19,8 @@
     <java.version>17</java.version> 
     <javafaker.version>0.17.2</javafaker.version>
     <modelmapper.version>2.3.5</modelmapper.version>
-    <jackson-bom.version>3.1.7</jackson-bom.version>
-    <tomcat.version>11.0.25</tomcat.version>
+    <!-- <jackson-bom.version>3.1.7</jackson-bom.version>
+    <tomcat.version>11.0.25</tomcat.version> -->
   </properties>
 
   <dependencies>
