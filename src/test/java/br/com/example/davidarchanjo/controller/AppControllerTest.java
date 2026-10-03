@@ -8,7 +8,6 @@ import tools.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Captor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
@@ -50,7 +49,7 @@ public class AppControllerTest {
     private AppService service;
 
     private final ArgumentCaptor<AppDTO> argumentCaptor = ArgumentCaptor.forClass(AppDTO.class);  
-    
+
     private final static String urlTemplate = "/api/v1/apps";
 
     @BeforeEach
