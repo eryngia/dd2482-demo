@@ -32,7 +32,6 @@ jobs:
     - name: Trivy security scan
       uses: aquasecurity/trivy-action@v0.36.0
       with:
-        github-token: "fake-invalid-token-12345"  #invalid token 
         scan-type: 'fs'
         scan-ref: '.'
         scanners: 'vuln,secret'
